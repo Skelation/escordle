@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    background: linear-gradient(248deg, #615AAF 16.4%, #615AAF 16.42%, rgba(203, 129, 155, 0.35) 97.05%, rgba(250, 146, 146, 0.06) 133.27%, rgba(190, 150, 255, 0.00) 133.28%);
+}
+
+.rules {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 265.916px;
+    height: 775px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #E15554;
+}
+
+.wordle {
+    width: 523px;
+    height: 775px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #7768AE;
+}
+
+.settings {
+    width: 462px;
+    height: 775px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #4D9DE0;
+}
+
+.title {
+    color: #FFA800;
+    text-align: center;
+    font-family: "Rubik";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: "Rubik";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 363px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.settings-letters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.letters {
+    display: flex;
+    flex-direction: row;;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 363px;
+    height: 70px;
+    flex-shrink: 0;
+}
